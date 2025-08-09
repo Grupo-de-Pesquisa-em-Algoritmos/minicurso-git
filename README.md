@@ -37,7 +37,8 @@ ssh -T git@github.com
 ```
 
 
-2. Criando um Repositório
+2. Repositórios
+2.1 Criando repositório local
 ```bash
 mkdir meu-projeto
 cd meu-projeto
@@ -50,6 +51,10 @@ git branch -M main
 git push -u origin main
 ```
 
+2.2 Clonando repositório
+```
+git clone git@github.com:username/meu-projeto.git
+```
 
 3. Fluxos
 ```bash
